@@ -13,6 +13,14 @@ public class AddTrainEntryDto {
 
     private int noOfSeats;
 
+
+
+
+
+
+
+
+
     public List<Station> getStationRoute() {
         return stationRoute;
     }

@@ -31,6 +31,12 @@ public class Train {
 
     private int noOfSeats;
 
+
+
+
+
+
+
     public Train() {
     }
 

@@ -12,7 +12,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "passenger")
-public class Passenger {
+public class   Passenger {
 
 
     @Id
@@ -31,6 +31,13 @@ public class Passenger {
     @ManyToMany
     @JoinColumn
     private List<Ticket> bookedTickets;
+
+
+
+
+
+
+
 
     public Passenger(int passengerId, String name, int age, List<Ticket> bookedTickets) {
         this.passengerId = passengerId;

@@ -32,6 +32,16 @@ public class Ticket {
 
     private Station toStation;
 
+
+
+
+
+
+
+
+
+
+
     public Ticket(int ticketId, List<Passenger> passengersList, Train train, Station fromStation, Station toStation,int totalFare) {
         this.ticketId = ticketId;
         this.passengersList = passengersList;

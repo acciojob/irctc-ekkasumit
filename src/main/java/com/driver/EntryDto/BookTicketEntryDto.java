@@ -9,7 +9,6 @@ public class BookTicketEntryDto {
 
     private List<Integer> passengerIds;
 
-
     private Integer bookingPersonId;
 
     private Integer trainId;
@@ -20,6 +19,9 @@ public class BookTicketEntryDto {
     private Station toStation;
 
     private int noOfSeats;
+
+
+
 
     public BookTicketEntryDto(List<Integer> passengerIds, Integer trainId, Station fromStation, Station toStation,int noOfSeats,Integer bookingPersonId) {
         this.passengerIds = passengerIds;
